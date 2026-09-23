@@ -203,7 +203,7 @@ jobs:
           branch: codemender/auto-remediation
           delete-branch: true
           add-paths: |
-            ${{ env.SCAN_PATH }}/**
+            ${{ env.SCAN_PATH }}
           commit-message: |
             fix(security): CodeMender autonomous remediation
 
